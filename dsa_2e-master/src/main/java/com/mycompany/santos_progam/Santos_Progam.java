@@ -13,7 +13,7 @@ public class Santos_Progam {
     public static void main(String[] args) {
          Scanner input = new Scanner (System.in);
         System.out.println("Hello World!");
-        System.out.println("Santos,Kervi C.");
+        System.out.println("Flores,Romel L.");
         System.out.println("Enter A Number");
         int x = input.nextInt();
         System.out.println("Enter A Number");
