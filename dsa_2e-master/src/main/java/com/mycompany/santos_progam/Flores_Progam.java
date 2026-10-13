@@ -8,7 +8,7 @@ import java.util.Scanner;
  *
  * @author CL2-PC
  */
-public class Santos_Progam {
+public class Flores_Progam {
     
     public static void main(String[] args) {
          Scanner input = new Scanner (System.in);
