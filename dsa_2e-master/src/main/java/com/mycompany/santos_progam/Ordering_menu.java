@@ -144,8 +144,7 @@ package com.mycompany.santos_progam;
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel1.setBackground(new java.awt.Color(255, 255, 102));
-        jPanel1.setForeground(new java.awt.Color(255, 255, 102));
+        jPanel1.setBackground(new java.awt.Color(0, 0, 0));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         pnlMenu.setBackground(new java.awt.Color(0, 0, 0));
@@ -153,12 +152,14 @@ package com.mycompany.santos_progam;
         jPanel1.add(pnlMenu, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 40, -1, -1));
 
         lblSubtotal.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        lblSubtotal.setForeground(new java.awt.Color(255, 255, 255));
         lblSubtotal.setText("Subtotal:   ₱0.00");
-        jPanel1.add(lblSubtotal, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 180, -1, -1));
+        jPanel1.add(lblSubtotal, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 210, -1, -1));
 
         lblPayment.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        lblPayment.setForeground(new java.awt.Color(255, 255, 255));
         lblPayment.setText("Payment:");
-        jPanel1.add(lblPayment, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 230, -1, -1));
+        jPanel1.add(lblPayment, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 250, -1, -1));
 
         txtPayment.setBackground(new java.awt.Color(0, 0, 0));
         txtPayment.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
@@ -174,7 +175,7 @@ package com.mycompany.santos_progam;
                 txtPaymentActionPerformed(evt);
             }
         });
-        jPanel1.add(txtPayment, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 220, 130, 40));
+        jPanel1.add(txtPayment, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 250, -1, -1));
 
         btnCheckout.setBackground(new java.awt.Color(0, 0, 0));
         btnCheckout.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
@@ -185,18 +186,19 @@ package com.mycompany.santos_progam;
                 btnCheckoutActionPerformed(evt);
             }
         });
-        jPanel1.add(btnCheckout, new org.netbeans.lib.awtextra.AbsoluteConstraints(248, 304, 140, 60));
+        jPanel1.add(btnCheckout, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 320, -1, -1));
 
         lblChange.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        lblChange.setForeground(new java.awt.Color(255, 255, 255));
         lblChange.setText("Change:    ₱0.00");
-        jPanel1.add(lblChange, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 270, -1, -1));
+        jPanel1.add(lblChange, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 290, -1, -1));
 
-        pnlBurger.setBackground(new java.awt.Color(102, 255, 102));
+        pnlBurger.setBackground(new java.awt.Color(255, 255, 255));
         pnlBurger.setPreferredSize(new java.awt.Dimension(240, 150));
         pnlBurger.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         lblBurger.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        lblBurger.setText("MANGO");
+        lblBurger.setText("Burger");
         pnlBurger.add(lblBurger, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 0, -1, -1));
 
         btnAddBurger.setBackground(new java.awt.Color(0, 0, 0));
@@ -233,21 +235,21 @@ package com.mycompany.santos_progam;
         pnlBurger.add(btnBurgerAdd1, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 23, 60, -1));
 
         lblBurgerPrice.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        lblBurgerPrice.setText("₱30.00");
+        lblBurgerPrice.setText("₱100.00");
         pnlBurger.add(lblBurgerPrice, new org.netbeans.lib.awtextra.AbsoluteConstraints(191, 0, -1, -1));
 
-        jPanel1.add(pnlBurger, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 170, 244, 47));
+        jPanel1.add(pnlBurger, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 50, 244, 47));
 
-        pnlChicken.setBackground(new java.awt.Color(255, 255, 102));
+        pnlChicken.setBackground(new java.awt.Color(255, 255, 255));
         pnlChicken.setPreferredSize(new java.awt.Dimension(240, 150));
         pnlChicken.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         lblChicken.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        lblChicken.setText("BANANA");
+        lblChicken.setText("Chicken");
         pnlChicken.add(lblChicken, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 0, -1, -1));
 
         lblChickenPrice.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        lblChickenPrice.setText("₱60.00");
+        lblChickenPrice.setText("₱120.00");
         pnlChicken.add(lblChickenPrice, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 0, -1, -1));
 
         btnAddChicken.setBackground(new java.awt.Color(0, 0, 0));
@@ -283,17 +285,17 @@ package com.mycompany.santos_progam;
         });
         pnlChicken.add(btnChickenLess, new org.netbeans.lib.awtextra.AbsoluteConstraints(184, 23, 60, -1));
 
-        jPanel1.add(pnlChicken, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 240, 244, 50));
+        jPanel1.add(pnlChicken, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 110, 244, 50));
 
-        pnlFries.setBackground(new java.awt.Color(255, 51, 51));
+        pnlFries.setBackground(new java.awt.Color(255, 255, 255));
         pnlFries.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         lblFries.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        lblFries.setText("APPLE");
+        lblFries.setText("Fries");
         pnlFries.add(lblFries, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 0, -1, -1));
 
         lblFriesPrice.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        lblFriesPrice.setText("₱15.00");
+        lblFriesPrice.setText("₱60.00");
         pnlFries.add(lblFriesPrice, new org.netbeans.lib.awtextra.AbsoluteConstraints(199, 0, -1, -1));
 
         btnAddFries.setBackground(new java.awt.Color(0, 0, 0));
@@ -329,18 +331,18 @@ package com.mycompany.santos_progam;
         });
         pnlFries.add(btnFriesLess, new org.netbeans.lib.awtextra.AbsoluteConstraints(184, 23, 60, -1));
 
-        jPanel1.add(pnlFries, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 20, -1, 50));
+        jPanel1.add(pnlFries, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 50, -1, -1));
 
-        pnlDrink.setBackground(new java.awt.Color(255, 153, 51));
+        pnlDrink.setBackground(new java.awt.Color(255, 255, 255));
         pnlDrink.setPreferredSize(new java.awt.Dimension(240, 150));
         pnlDrink.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         lblDrink.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        lblDrink.setText("ORANGE");
+        lblDrink.setText("Soft Drink");
         pnlDrink.add(lblDrink, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 0, -1, -1));
 
         lblDrinkPrice.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        lblDrinkPrice.setText("₱20.00");
+        lblDrinkPrice.setText("₱40.00");
         pnlDrink.add(lblDrinkPrice, new org.netbeans.lib.awtextra.AbsoluteConstraints(199, 0, -1, -1));
 
         btnAddDrink.setBackground(new java.awt.Color(0, 0, 0));
@@ -376,7 +378,7 @@ package com.mycompany.santos_progam;
         });
         pnlDrink.add(btnDrinkAdd, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 23, 60, -1));
 
-        jPanel1.add(pnlDrink, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 100, 244, 49));
+        jPanel1.add(pnlDrink, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 110, 244, 49));
 
         tblOrder.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -391,7 +393,7 @@ package com.mycompany.santos_progam;
         ));
         jScrollPane1.setViewportView(tblOrder);
 
-        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 0, 330, 170));
+        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 210, 276, 117));
 
         btnClear.setBackground(new java.awt.Color(0, 0, 0));
         btnClear.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
@@ -402,23 +404,24 @@ package com.mycompany.santos_progam;
                 btnClearActionPerformed(evt);
             }
         });
-        jPanel1.add(btnClear, new org.netbeans.lib.awtextra.AbsoluteConstraints(454, 305, 220, 60));
+        jPanel1.add(btnClear, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 330, -1, -1));
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, 90, 700, 380));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 90, 700, 380));
 
-        pnlHeader.setBackground(new java.awt.Color(255, 255, 102));
+        pnlHeader.setBackground(new java.awt.Color(0, 0, 0));
         pnlHeader.setPreferredSize(new java.awt.Dimension(880, 80));
         pnlHeader.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         lblTitle.setFont(new java.awt.Font("Times New Roman", 1, 48)); // NOI18N
+        lblTitle.setForeground(new java.awt.Color(255, 255, 255));
         lblTitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lblTitle.setText("FRUITS KA SAKIN");
-        pnlHeader.add(lblTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 500, -1));
-        lblTitle.getAccessibleContext().setAccessibleName("BURGER KA SAKIN");
+        lblTitle.setText("SARI-SARI STORE ");
+        pnlHeader.add(lblTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 437, -1));
 
         lblMenuTitle.setFont(new java.awt.Font("Arial", 1, 48)); // NOI18N
+        lblMenuTitle.setForeground(new java.awt.Color(255, 255, 255));
         lblMenuTitle.setText("MENU");
-        pnlHeader.add(lblMenuTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 20, -1, 34));
+        pnlHeader.add(lblMenuTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 20, -1, 34));
 
         getContentPane().add(pnlHeader, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, 90));
 
