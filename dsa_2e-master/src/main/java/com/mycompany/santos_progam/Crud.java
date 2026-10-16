@@ -241,7 +241,7 @@ private void checkStudentsTable() {
         pnlStudentInfo.add(lblStudentInformation, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 310, 40));
 
         lblFirstName.setFont(new java.awt.Font("Comic Sans MS", 2, 14)); // NOI18N
-        lblFirstName.setText("FIRST NAME:");
+        lblFirstName.setText("FIRST NAME;");
         pnlStudentInfo.add(lblFirstName, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 50, -1, -1));
 
         lblMiddleInitial.setFont(new java.awt.Font("Comic Sans MS", 2, 14)); // NOI18N
